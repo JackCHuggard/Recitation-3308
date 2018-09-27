@@ -1,0 +1,14 @@
+Commands used:
+1) make the readme when I made the repository through githubs interface
+2) clone the project on githubs interface
+3) made two text files used git add. to add all files in the directory
+4) git commit -m "Commit Sample1 and Sample2" this gets everything ready to be pushed
+5) git push origin master This pushed verything to the repository
+6) git tag v0.0.1 
+7) git commit --tags
+8) git push origin master
+9) git branch 'new-feature'
+10) edited sample1.txt
+11) git add Sample1.txt
+12) git commit -m 'Change to new branch new-feature'
+13) git push origin new-feature
