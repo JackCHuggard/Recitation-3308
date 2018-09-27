@@ -1,14 +1,30 @@
 Commands used:
 1) make the readme when I made the repository through githubs interface
 2) clone the project on githubs interface
-3) made two text files used git add. to add all files in the directory
+
+git clone -b master git@github.com:jackchuggard/Recitation-3308.git
+git add ReadMe.md
+git commit -m "create readme"
+
+make both of the files 
+git add ../Lab4/Sample1.txt
+git add ../Lab4/Sample2.txt
+
 4) git commit -m "Commit Sample1 and Sample2" this gets everything ready to be pushed
-5) git push origin master This pushed verything to the repository
 6) git tag v0.0.1 
-7) git commit --tags
-8) git push origin master
+7) git push --tags
 9) git branch 'new-feature'
-10) edited sample1.txt
-11) git add Sample1.txt
-12) git commit -m 'Change to new branch new-feature'
-13) git push origin new-feature
+10) git checkout -b new-feature
+11) made two more files sample3 and sample4
+    git add Sample3.txt Sample4.txt
+12) git commit -m 'Making branch edits'
+13) git checkout -b master
+14) edit Sample1 git add Sample1.txt | git commit -m 'changes to Sample1'
+15) git merge new-feature
+16) git checkout -b new-feature
+17) git push --all
+
+
+*****
+
+
